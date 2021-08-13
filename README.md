@@ -1,6 +1,6 @@
 Изначально всё написано для определенного Технического Задания. Код приведён в соответствиие с правилами norminette. Возможны доработки и дополнения.
 
-Description Write a function which returns a line read from a file descriptor, without the newline.
+Description: Write a function which returns a line read from a file descriptor, without the newline.
 
 Parameters: #1. file descriptor for reading, #2. The value of what has been read
 
