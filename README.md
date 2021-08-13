@@ -6,4 +6,4 @@ Your function should return the line that has just been read. If there is nothin
 
 The program will be compiled in this way: gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
 
-• Important: You should always return the line that has been read followed by a ’\n’ unless you have reach end of file and the is no ’\n’.
+Important: You should always return the line that has been read followed by a ’\n’ unless you have reach end of file and the is no ’\n’.
