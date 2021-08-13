@@ -1,9 +1,11 @@
 Изначально всё написано для определенного Технического Задания. Код приведён в соответствиие с правилами norminette. Возможны доработки и дополнения.
 
-Description: Write a function which returns a line read from a file descriptor.
+Description Write a function which returns a line read from a file descriptor, without the newline.
 
-Your function should return the line that has just been read. If there is nothing else to read or if an error has occurred it should return NULL.
+Parameters: #1. file descriptor for reading, #2. The value of what has been read
+
+Return value: 1 : A line has been read, 0 : EOF has been reached, -1 : An error happened
+
+External functs.: read, malloc, free
 
 The program will be compiled in this way: gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
-
-Important: You should always return the line that has been read followed by a ’\n’ unless you have reach end of file and the is no ’\n’.
